@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
+/** 
+ * @brief The main entry point of the program.
+ *
+ * @return int Returns 0 on successful execution
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
