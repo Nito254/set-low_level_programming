@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /** 
- * @brief The main entry point of the program.
+ *The main entry point of the program.
  *
- * @return int Returns 0 on successful execution
+ *return int Returns 0 on successful execution
  */
 
 int main(void)
