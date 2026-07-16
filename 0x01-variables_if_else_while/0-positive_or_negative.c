@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
- *The main entry point of the program.
+/**
+ * main - The main entry point of the program.
  *
- *return int Returns 0 on successful execution
+ * Return - Always 0 (Success)
  */
 
 int main(void)
@@ -16,15 +16,15 @@ int main(void)
 	/* your code goes here */
 	if (n > 0)
 	{
-		printf("%d is positive", n);
+		printf("%d is positive", n)\n;
 	}
 	else if (n == 0)
 	{
-		printf("%d\n is zero", n);
+		printf("%d is zero", n);
 	}
 	else
 	{
-		printf("%d\n is negative", n);
+		printf("%d is negative", n);
 	}
 	return (0);
 }
