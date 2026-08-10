@@ -31,16 +31,6 @@ int main(void)
 			printf("%d", i);
 		}
 
-		/* Print space after each element except the last one */
-		if (i < 100)
-		{
-			printf(" ");
-		}
-		else
-		{
-			printf("\n");
-		}
 	}
-
 	return (0);
 }
