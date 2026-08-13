@@ -16,9 +16,7 @@ void print_rev(char *s)
 		i++;
 	}
 
-	/* Step backwards from the last character before the null byte,
-	 * printing each.
-	 */
+	/* Step backwards from the last character before the null byte, then prints them. */
 	for (i = i - 1; i >= 0; i--)
 	{
 		_putchar(s[i]);
