@@ -15,7 +15,7 @@ void rev_string(char *s)
 	/* Find the length of the string */
 	while (s[len] != '\0')
 	{
-		len++
+		len++;
 	}
 
 	len--; /* Adjust to the index of the last printable character */
