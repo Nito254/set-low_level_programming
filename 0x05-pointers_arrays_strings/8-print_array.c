@@ -12,12 +12,12 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	for (i =0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("%d", a[i]);
 
 		/* Print comma and space if it's not the last element */
-		if (i < n -1)
+		if (i < n - 1)
 		{
 			printf(", ");
 		}
