@@ -35,7 +35,7 @@ char *cap_string(char *str)
 				}
 			}
 		}
-		i++
+		i++;
 	}
 	return (str);
 }
