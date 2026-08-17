@@ -6,7 +6,7 @@
   * @accept: The string containing accepted bytes.
   *
   * Return: The number of bytes in the initial segment of @s which consist
-  only of bytes fom @accept.
+  *	only of bytes from @accept.
   */
 unsigned int _strspn(char *s, char *accept)
 {
